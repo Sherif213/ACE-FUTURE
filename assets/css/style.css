@@ -245,7 +245,7 @@ body.nav-active { overflow: hidden; }
 .section-subtitle {
   font-size: var(--fs-7);
   text-transform: uppercase;
-  color: var(--violet-blue-crayola);
+  color: var(--crimson-Red);
   font-weight: var(--fw-700);
   margin-block-end: 16px;
 }
@@ -510,7 +510,15 @@ li {
 .hero .slider-btn.next { right: 20px; }
 
 
+.fade-out {
+  opacity: 0;
+  transition: opacity 1d ease-out;
+}
 
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
 
 
 /*-----------------------------------*\
@@ -760,7 +768,7 @@ li {
 }
 
 .cta .btn {
-  background-color: var(--violet-blue-crayola);
+  background-color: var(--crimson-Red);
   color: var(--white);
   border: none;
 }
@@ -819,7 +827,7 @@ li {
   right: 0;
   bottom: 0;
   border-radius: 0 var(--radius-6) var(--radius-6) 0;
-  background-color: var(--violet-blue-crayola);
+  background-color: var(--crimson-Red);
   color: var(--white);
   padding-inline: 24px;
   font-weight: var(--fw-700);
