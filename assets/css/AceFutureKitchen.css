@@ -208,7 +208,7 @@ body, html {
 }
 
 .cta .btn {
-  background-color: var(--violet-blue-crayola);
+  background-color: var(--crimson-Red);
   color: var(--white);
   border: none;
 }
@@ -259,6 +259,14 @@ body, html {
   outline: none;
 }
 
+.section-subtitle {
+  font-size: var(--fs-7);
+  text-transform: uppercase;
+  color: var(--crimson-Red);
+  font-weight: var(--fw-700);
+  margin-block-end: 16px;
+}
+
 .input-field::placeholder { color: inherit; }
 
 .submit-btn {
@@ -267,7 +275,7 @@ body, html {
   right: 0;
   bottom: 0;
   border-radius: 0 var(--radius-6) var(--radius-6) 0;
-  background-color: var(--violet-blue-crayola);
+  background-color: var(--crimson-Red);
   color: var(--white);
   padding-inline: 24px;
   font-weight: var(--fw-700);
@@ -354,8 +362,8 @@ body, html {
   }
 
   .header.active .btn {
-    background-color: var(--violet-blue-crayola);
-    border-color: var(--violet-blue-crayola);
+    background-color: var(--crimson-Red);
+    border-color: var(--crimson-Red);
     color: var(--white);
   }
 
